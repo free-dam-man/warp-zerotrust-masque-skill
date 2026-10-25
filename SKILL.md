@@ -136,9 +136,7 @@ the same step keep the same prefix.
   3. An IP-lookup page shows a Cloudflare egress IP (e.g. 104.18.x.x).
   4. Run a speed test and play a 4K video; report the measured numbers
      verbatim. No promised speeds (rule 6).
-- **S9 Phone (W7).** Install the WARP app (the video uses *1.1.1.1 by
-  Cloudflare*; the author's blog also names *Cloudflare One Agent* —
-  both support Zero Trust login) → Next → Accept → notifications either
+- **S9 Phone (W7).** Install the **Cloudflare One Agent** app (Cloudflare's current dedicated Zero Trust client, also what the author's blog recommends; the video demo used the older *1.1.1.1* app, whose Zero Trust support Cloudflare has officially ended on mobile) → Next → Accept → notifications either
   way → top-right hamburger menu → Account → Log in with Cloudflare
   Zero Trust → same team name → email code login → Connect.
   **Author's explicit warning:** do NOT reuse the desktop MASQUE
